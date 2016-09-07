@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="uikit.min.css" />
+	<script src="uikit.min.js"></script>
+	<style>
+	ul{
+		color:green;
+	}
+	.uk-container-center{
+		position:relative;
+		margin-top: 150px;
+	}
+	</style>
+</head>
+<body>
+<div class="uk-width-medium-1-2 uk-container-center">
+<nav class="uk-navbar">
+	<ul class="uk-navbar-nav">
+		<li class='profileTab'><a href="#">Profile</a></li>
+		<li class='educationTab'><a href="#">Education</a></li>
+		<li class='skillsTab'><a href='#'>Skills</a></li>
+		<li class='experienceTab'><a href='#'>Experience</a></li>
+	</ul>
+</nav>
+
+<div class="uk-block uk-block-primary profile">
+	<ul>
+		<li>Profile</li>
+	</ul>
+</div>
+<div class="uk-block uk-block-primary education">
+	<ul>
+		<li>Education</li>
+	</ul>
+</div>
+
+</div>
+<script>
+$('.profileTab').click(function(){
+	$('.profile').toggleClass();
+});
+
+$('.educationTab').click(function(){
+	$('.education').toggleClass();
+});
+</script>
+<body>
