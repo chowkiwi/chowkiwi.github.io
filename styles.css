@@ -1,0 +1,222 @@
+/*.navigation
+{
+		position:relative;
+		border: 1px solid black;
+		margin: 10px 300px 0  300px;
+}
+
+nav a
+{
+	width: 24%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.header
+{
+		height: 100px;
+		border: 1px solid black;
+		margin: 100px 300px 0 300px;
+		position:relative;
+}
+.content1
+{
+		border:1px solid black;
+		position:relative;
+		margin: 10px 300px 0 300px;
+		height: 200px;
+		display:none;
+		padding: 10px;
+}
+
+footer {
+	border: 1px solid black;
+	 margin: 10px 300px 0 300px;
+	position: relative;
+	height: 20px;
+}*/
+
+/* New Design */
+
+.whole{
+	margin: 80px 200px 0 200px;
+	border: 1px dotted green;
+	height: 500px;
+}
+
+.profile  {
+	/*border: 1px solid black;*/
+	border-right: 1px dotted green;
+	float: left;
+	height: 99%;
+	width: 17%;
+	margin-left: 1px;
+	margin-top: 1px;
+	background-image:url("1347032.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.content {
+	/*border: 1px solid black;*/
+	float: right;
+	height: 100%;
+	width: 80%;
+	margin: 1px 1px 1px 0;
+}
+
+#profilePic {
+	/*border:1px solid black;*/
+	margin: 10px 10px 10px 10px;
+	height: 20%;
+	text-align: center;
+	/*border-radius: 50%;*/
+}
+
+#profileIcon {
+	margin: 5px 10px 5px 10px;
+	height: 5%;
+	padding-top: 5px;
+	position:relative;
+}
+
+.navigation, .navTable {
+	/*border: 1px solid black;*/
+	position:relative;
+	height: 30%;
+	margin: 10px 10px 0 10px;
+}
+
+.navigation a{
+	display: inline;
+	width: 24%;
+	text-align: center;
+	height: 10%;
+	color: purple;
+}
+
+.navigation a:hover, .navigation table tr:hover {
+	background-color:grey;
+	color: white;
+	text-decoration: none;
+}
+
+.content1 {
+	/*border: 1px solid black;*/
+	float:right;
+	display:none;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-right: 2px;
+	height: 95%;
+	width:82%;
+	position:relative;
+}
+
+article {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+
+
+
+/*.pdf{
+	height:10%;
+	border: 1px solid black;
+	margin: 5px 10px 5px 10px;
+	border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+}*/
+
+.pdf table{
+	width:100%;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/*Introduction*/
+.intro, .str{
+	text-align: center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: medium;
+}
+
+.nice {
+	font-family: 'Calibri', sans-serif;
+	font-size: xx-large;
+}
+
+#c1{
+	background-image:url("light-green.jpg");
+	background-color:#ADFF2F;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top: 20px;
+}
+
+
+/*Education*/
+#fypDescription{
+	font-size:small;
+	margin: 0 100px 0 100px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#c2{
+	padding-top: 20px;
+	text-align:center;
+	font-size: 16px;
+	background-image: url("light-green.jpg");
+	background-repeat: no-repeat;
+}
+
+#c2 .school{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#fypTitle{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+/*Experience*/
+#c3 {
+	padding-top: 20px;
+	text-align: center;
+	background-image: url("light-green.jpg");
+	background-repeat: no-repeat;
+	font-size: medium;
+}
+#c3 p{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#c3 #currentWork1{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#c3 #currentWork2{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/*Skills*/
+#c4{
+	text-align:center;
+	padding-top: 20px;
+	background-image: url("light-green.jpg");
+}
+
+.techTitle{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Gill Sans", Gill Sans MT, Calibri, sans-serif;
+}
+
+.c41, .c42, .c43, .c44, .c45{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:medium;
+}
+

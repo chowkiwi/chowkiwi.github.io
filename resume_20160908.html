@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" href="uikit.min.css" />
+	<script src="uikit-2.27.1/js/uikit.min.js"></script>
+	<script src="jquery-3.1.0.js"></script>
+	<link rel="stylesheet" href="styles.css"/>
+	<link rel="stylesheet" href="uikit-2.27.1/css/uikit.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Coming+Soon|Indie+Flower|Open+Sans" rel="stylesheet">
+
+
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.nav1').click(function(e){
+			e.preventDefault();
+			var div_id=$('.nav1').index($(this));
+			$('.content1').hide().eq(div_id).show();
+			$(div_id).css('display','block');
+			$(div_id).css('background-color','blue');
+		});
+		$('#c1').show();
+	});
+	</script>
+</head>
+<body>
+<div class="header">
+
+</div>
+<div class="whole">
+	<div class="profile">
+		<div id="profilePic"><img src="my.jpg" alt="William" style="border-radius: 8px;height:100%"></div>
+		<div style="text-align:center;font-family: 'Open Sans', sans-serif;font-size:large">Chau Kin Weng</div>
+		<div class="navigation">
+			<table style="width:100%;height:100%; text-align:center; font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">
+				<tr>
+					<td style="height:20%"><a href="#profile" class="nav1" id="pro"> Profile</a></td>
+				</tr>
+				<tr>
+					<td style="height:20%"><a href="#education" class="nav1" id="edu"> Education</a></td>
+				</tr>
+				<tr>
+					<td style="height:20%"><a href="#experience" class="nav1" id="exp"> Experience</a></td>
+				</tr>
+				<tr>
+					<td style="height:20%"><a href="#skill" class="nav1" id="ski"> Skills</a></td>
+				</tr>
+				<!--<tr>
+					<td style="height:20%"><a href="#" onClick="window.open('https://drive.google.com/file/d/0B519iu78XB1ULXJhZXB3b1E1NDA/view?usp=sharing','_blank')" class=""> Resume Download</a></td>
+				</tr>-->
+			</table>
+		</div>
+		<!--<div class="pdf">
+			<table>
+				
+			</table>
+		</div>-->
+		<div id="profileIcon" style="text-align:center">
+			<a href="#" class="uk-icon-button uk-icon-facebook" onClick="window.open('https://www.facebook.com/william.chau210','_blank')"></a>
+			<a href="#" class="uk-icon-button uk-icon-twitter" onClick="window.open('https://twitter.com/chowkiwi','_blank')"></a>
+			<a href="#" class="uk-icon-button uk-icon-github" onClick="window.open('https://github.com/chowkiwi','_blank')"></a>
+		</div>
+		<table style="width:100%;height:100%">
+			<tr>
+				<td>Mobile version to be released yet!</td>
+			</tr>
+		</table>
+	</div>
+
+	
+		<div class="content1" id="c1"> 
+			<article class="intro">
+				<p class="nice">Nice to meet you</p><br \>
+				<p> William is my nickname</p>
+				<p> Passionate Junior Application Engineer</p>
+				<p> UTAR Graduand in August 2016</p>
+				<p> chaukw0210@gmail.com</p>		
+			</article>
+			<article class="str">
+				<!--<article style="text-align:center;"><b><u>Strengths</u></b></article>-->
+				<p> Full of passion</p>
+				<p> Posses strong problem solving, analytical and troubleshooting skills</p>
+				<p> Responsible and trust-worthy</p>
+			</article>
+		</div>
+		<div class="content1" id="c2"> 
+			<article>
+				<article class="school"> SJK(C) Choong Wen</article><br>
+				<article class="uk-icon-angle-double-down"></article><br>
+				<article class="school"> Chong Hwa Independent High School, Kuala Lumpur</article><br>
+				<article class="uk-icon-angle-double-down"></article><br>
+				<article class="school"> Universiti Tunku Abdul Rahman (UTAR), Malaysia</article><br>
+				<article class="school"> Bachelor Degree of Computer Science (HONS)</article><br>
+				<article><b><u>Final Year Project</u></b></article>
+				<p id="fypTitle">Producing High Dynamic Range Image For Use in a system for creating Panaroma</p>
+				<p id="fypDescription">Software that can input an image by user, select highlight and lowlight image area, calculate most optimal dynamic range and apply to target image using OpenCV, an open source image processing library</p>
+			</article>
+		</div>
+		<div class="content1" id="c3"> 
+			<article>
+				<p></p>
+				<article id="currentWork1">Application Engineer </article> 
+				<article id="currentWork2"> Hitachi eBworx(Malaysia) Sdn.Bhd </article><br \><br \>
+				<b style="font-family: 'Calibri', sans-serif;font-size: large;">Past Experiences</b>
+				
+					<p>SAP ABAP Training from Jan 2014 until August 2014</p>
+					<p>SAP Business ByDesign Training in June 2015 </p>
+					<p>SAP SD Module Training from May 2015 to October 2015</p>
+				
+				<b style="font-family: 'Calibri', sans-serif;font-size: large;">Past Job Experiences</b>
+				
+					<p>Promoter - PIKOM Fair December 2012 (under ALL IT Hypermarket Sdn. Bhd)</p>
+				
+			</article>
+		
+		</div>
+		<div class="content1" id="c4"> 
+			<article>
+				<br><p class="techTitle">Technical-Related Skills</p>
+				<p class="c41">/ C++ / J2EE / ABAP / JavaScript /</p>
+				<p class="c42">/ SQL Developer / Oracle 10+ /</p>
+				<p class="c43">/ Microsft Window / Apple MacOS / Unix /</p>
+				<p class="c44">/ Eclipse / Notepad++ /  Sublime Text /</p>
+				<p class="c45">/ HTML5 / CSS3 /</p>
+				<p class="c46">/ SAP Business ByDesign /</p>
+			</article>
+		</div>
+
+</div>
+<body>
